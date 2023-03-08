@@ -87,10 +87,10 @@ export default function FAQ() {
                     }}
                 >
                     <h2>5. What is PHP ?</h2>
-                    <h2 className='text-3xl' >{status5 ? "-" : "+"}</h2>
+                    <h2 className='text-3xl ml-3' >{status5 ? "-" : "+"}</h2>
                 </button>
                 {status5 && <p className='bg-zinc-700 p-3 text-white rounded-2xl'>
-                    HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam cum ipsa voluptas cupiditate deleniti atque impedit blanditiis voluptate doloremque vel dolorum praesentium, maiores officia tenetur, facere totam odit earum!
+                    PHP Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam cum ipsa voluptas cupiditate deleniti atque impedit blanditiis voluptate doloremque vel dolorum praesentium, maiores officia tenetur, facere totam odit earum!
                 </p>}
             </div>
 
